@@ -1,0 +1,21 @@
+body {
+  background-image: url(../img/javascript-bg.png);
+  background-repeat: no-repeat;
+  background-position: 0 -90px;
+  background-size: cover;
+}
+.homework-menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.homework-menu a {
+  padding: 19px;
+  border: 1.5px solid #dab641;
+  width: 100px;
+  text-align: center;
+}
+.homework-menu a:link, .homework-menu a:visited {
+  color: blue;
+}
